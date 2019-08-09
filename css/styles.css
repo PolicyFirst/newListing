@@ -115,10 +115,14 @@ section {
 	border-width: 0px 2px 0px 2px;
 }
 
-.video, video, .location, .location_map {
+.video, .location, .location_map {
   width: 100%    !important;
   height: auto   !important;
   padding: 0;
+}
+
+.video {
+	max-height: 700px;
 }
 
 .location_map {
