@@ -27,7 +27,9 @@
 		</script>
 		<link rel='shortcut icon' type='image/x-icon' href='images/icon-house.png' />
 		<link rel="stylesheet" href="css/styles.css" />
-		<script src="https://unpkg.com/hes-gallery/dist/hes-gallery.min.js"></script>
+		<link rel="stylesheet" href="css/hes-gallery.min.css" />
+		<script src="js/hes-gallery.min.js"></script>
+		<script src="js/init.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet" />
 	</head>
@@ -41,6 +43,7 @@
 				</div>
 			</div>
 			<img class="banner_image" src="images/full/madrona_sunrise.jpeg" alt="Madrona Sunset View">
+			<i class="arrow"></i>
 		</header>
 		<section class="about">
 			<ul class="about_details">
@@ -101,7 +104,7 @@
 			</div>
 		</section>
 		<section class="location">
-			<iframe class="location_map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-122.27065980434419%2C47.684971831013215%2C-122.26665794849397%2C47.687380553201926&amp;layer=mapnik&amp;marker=47.68617710883106%2C-122.26865887641907" style="border: 1px solid black"></iframe>
+			<iframe id="location_map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-122.27065980434419%2C47.684971831013215%2C-122.26665794849397%2C47.687380553201926&amp;layer=mapnik&amp;marker=47.68617710883106%2C-122.26865887641907" style="border: 1px solid black"></iframe>
 		</section>
 		<footer class="contact">
 			<img class="logo" src="images/full/roanoke_group_logo.png" alt="">
