@@ -97,7 +97,7 @@ section {
   display:block;
 } 
 
-.about, .gallery, footer {
+.about, .gallery {
 	padding: 50px 10% 50px 10%;
 }
 
@@ -245,7 +245,7 @@ section {
 }
 
 .logo {
-	max-width: 200px;
+	max-width: 300px;
 }
 
 .contact > ul {
@@ -265,6 +265,15 @@ section {
 	font-size: 1.1em;
 }
 
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer  > * {
+	margin: 20px;
+}
+ 
 /*large screens*/
 @media screen and (min-width: 1000px) {
 	.arrow {
